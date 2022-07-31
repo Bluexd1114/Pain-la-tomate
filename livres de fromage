@@ -1,0 +1,17 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+int main(){
+	char eleccion[20];
+	cout<<"Que color te gusta"<<endl;
+	cin>>eleccion;
+	if(strcmp(eleccion,"azul")==0){
+	cout<<"Te gusta el azul"<<endl;
+		}	
+	else if(strcmp(eleccion,"rojo")==0){
+	cout<<"Te gusta el rojo"<<endl;	
+	}
+    else 
+    cout<<"No te gusta nada"<<endl;
+	return 0;
+}
